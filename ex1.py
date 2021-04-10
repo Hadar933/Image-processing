@@ -1,3 +1,13 @@
+"""
+The main purpose of this exercise is to get you acquainted with NumPy and some image processing
+facilities. This exercise covers:
+• Loading grayscale and RGB image representations.
+• Displaying gures and images.
+• Transforming RGB color images back and forth from the YIQ color space.
+• Performing intensity transformations: histogram equalization.
+• Performing optimal quantization.
+"""
+
 import numpy as np
 from imageio import imread
 import skimage.color as ski
